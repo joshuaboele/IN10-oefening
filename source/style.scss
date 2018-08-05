@@ -1,0 +1,355 @@
+@import '../node_modules/normalize/_normalize.scss';
+@import 'vars';
+
+body {
+  font-family: Arial;
+  font-size: 18px;
+}
+
+h2,
+p {
+  margin: 0;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: $color-dark;
+}
+
+.content {
+  max-width: 450px;
+  overflow: visible;
+
+  .tekst-klein {
+    font-size: 0.66em;
+    padding: 4px 0;
+  }
+
+  .tekst-mid {
+    font-size: 0.77em;
+    padding: 4px 0;
+  }
+
+  .tekst-afwijkend {
+    color: $color-gold;
+    font-weight: bold;
+  }
+}
+
+.collectie-container {
+  .collectie {
+    width: 100vw;
+    height: auto;
+  }
+
+  .collectie-vast {
+    background-image: url("../imgs/vaste-collectie.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    width: 100vw;
+    height: 180px;
+    z-index: -1;
+  }
+
+  .collectie-surr {
+    background-image: url("../imgs/surrealisme.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    width: 100vw;
+    height: 180px;
+    z-index: -1;
+  }
+
+  .omschrijving {
+    width: 100%;
+    height: auto;
+
+    .tekst-positie {
+      padding-top: 11px;
+      margin-left: 65px;
+      padding-bottom: 15px;
+
+      h2 {
+        font-size: 2em;
+      }
+
+      p {
+        padding-top: 5px;
+      }
+
+      .tekst-afwijkend {
+        font-weight: normal;
+      }
+    }
+
+    .pijl {
+      position: absolute;
+      margin-top: -10px;
+      height: 50px;
+      width: 50px;
+      background: url("../imgs/pijlblok.svg") center;
+      margin-left: 0px;
+    }
+    .status {
+      position: absolute;
+      margin-left: 50px;
+      height: 15px;
+      width: 60px;
+      background: black;
+      margin-top: -10px;
+
+      p {
+        color: #fff;
+        font-size: 8px;
+        text-align: center;
+        line-height: 14px;
+      }
+    }
+  }
+}
+
+.activiteiten {
+  width: 100vw;
+  height: auto;
+  background: $color-sand;
+
+  .tekst-groot {
+    padding: 77px 0 20px 30px;
+  }
+
+  .activiteiten-header {
+    display: flex;
+
+    .activiteiten-foto {
+      img {
+        width: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+    }
+
+    .activiteiten-callout {
+      width: 200px;
+      .tekst-afwijkend {
+        font-weight: normal;
+        padding-right: 10px;
+      }
+
+      .tekst-mid {
+        padding: 4px 0;
+      }
+
+      .prijs {
+        margin-left: 45px;
+      }
+
+      p {
+        margin: 0;
+        width: 100%;
+      }
+
+      h5 {
+        margin: 2px 0;
+        font-size: 1em;
+      }
+    }
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  h5 {
+    margin: 0;
+    font-size: 1em;
+  }
+
+  .activiteiten-container {
+    height: auto;
+    display: flex;
+    padding-top: 35px;
+
+    .bekijk {
+      margin-left: 30px;
+      font-size: 0.77em;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      font-family: "Schulbuchnord", Arial;
+      letter-spacing: 0.5px;
+
+      img {
+        padding-right: 7px;
+      }
+    }
+
+    .activiteiten-datum {
+      margin-left: 20px;
+      p {
+        width: 80px;
+      }
+    }
+    .activiteiten-omschrijving {
+      width: 200px;
+      margin-left: 40px;
+    }
+  }
+}
+
+@media screen and(min-width: 650px) {
+  .content {
+    width: 100vw;
+    max-width: 1150px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .collectie-container {
+    width: 50vw;
+    height: 600px;
+
+    .collectie {
+      width: 50vw;
+
+      .collectie-vast {
+        width: 50vw;
+        background-size: 100%;
+      }
+
+      .collectie-surr {
+        width: 50vw;
+        background-size: 100%;
+      }
+    }
+  }
+
+  .activiteiten {
+    width: 50vw;
+    height: auto;
+  }
+}
+
+//  Desktop
+
+@media screen and (min-width: 1150px) {
+  .content {
+    width: 100vw;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .collectie-container {
+    width: auto;
+    height: 600px;
+    margin-left: 80px;
+
+    .collectie {
+      width: 620px;
+      height: 470px;
+      margin-bottom: 20px;
+
+      .collectie-vast {
+        width: 620px;
+        height: 350px;
+        background-image: url("../imgs/vaste-collectie.png");
+        background-size: 620px;
+      }
+
+      .collectie-surr {
+        width: 620px;
+        height: 350px;
+        background-image: url("../imgs/surrealisme.png");
+        background-size: 620px;
+      }
+
+      .omschrijving {
+        width: 100%;
+        height: 120px;
+        margin-left: 80px;
+
+        .tekst-positie {
+          padding-top: 21px;
+          margin-left: 130px;
+        }
+
+        .pijl {
+          width: 70px;
+          height: 70px;
+          background: url("../imgs/pijlblok.svg");
+          margin-left: 50px;
+        }
+        .status {
+          height: 25px;
+          width: 87px;
+          background: $color-dark;
+          margin-top: -10px;
+          margin-left: 120px;
+
+          p {
+            font-size: 12px;
+            line-height: 24px;
+            font-family: "Schulbuchnord", Arial;
+          }
+        }
+      }
+    }
+  }
+
+  .activiteiten {
+    width: 100%;
+    height: auto;
+    background: $color-sand;
+    margin-left: 40px;
+
+    .tekst-groot {
+      padding-left: 110px;
+    }
+
+    h3 {
+      font-size: 1.55em;
+    }
+
+    .activiteiten-header {
+      .activiteiten-foto img {
+        width: 160px;
+        margin-left: 110px;
+      }
+    }
+    .activiteiten-container {
+      .bekijk {
+        margin-left: 110px;
+        padding-top: 47px;
+        padding-bottom: 106px;
+      }
+
+      .activiteiten-datum {
+        margin-left: 110px;
+
+        p {
+          width: 100px;
+          padding-right: 80px;
+        }
+      }
+      .activiteiten-omschrijving {
+        width: 330px;
+        margin-left: 0px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .collectie-container {
+    .collectie {
+      .omschrijving {
+        margin-left: 0px;
+      }
+    }
+  }
+}

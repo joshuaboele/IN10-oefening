@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="12px" viewBox="0 0 14 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="DESIGN" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Oefening" transform="translate(-773.000000, -777.000000)">
+            <g id="BTN/default/wit-Copy" transform="translate(770.000000, 773.000000)">
+                <g id="Icon">
+                    <polyline id="Page-1" stroke="#1A1E26" stroke-width="2" stroke-linecap="square" points="11 14 15 10 11 6"></polyline>
+                    <rect id="Rectangle" fill="#1A1E26" x="3" y="9" width="12" height="2"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

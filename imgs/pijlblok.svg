@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Pijlblok</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="1.42108547e-14" width="70" height="70"></rect>
+    </defs>
+    <g id="DESIGN" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Oefening" transform="translate(-120.000000, -869.000000)">
+            <g id="Pijlblok" transform="translate(120.000000, 869.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#00BAFF" transform="translate(35.000000, 35.000000) rotate(-270.000000) translate(-35.000000, -35.000000) " xlink:href="#path-1"></use>
+                <g id="Element/pijl/blauw-Copy" mask="url(#mask-2)" fill="#FFFFFF">
+                    <g transform="translate(34.000000, 34.000000) rotate(-360.000000) translate(-34.000000, -34.000000) translate(16.500000, 16.500000)">
+                        <polygon id="Fill-1" transform="translate(27.336933, 27.450717) rotate(-315.000000) translate(-27.336933, -27.450717) " points="17.7633643 7.18367487 16.6426647 8.30437446 31.8181435 23.4814407 32.4197656 24.0830627 35.7866265 27.4499236 32.4197656 30.818372 31.8181435 31.419994 16.6426647 46.5938854 17.7633643 47.7177598 38.0312005 27.4499236"></polygon>
+                        <polygon id="Fill-2" transform="translate(21.849355, 9.122687) rotate(-315.000000) translate(-21.849355, -9.122687) " points="23.5042125 3.54696808 34.1921308 14.233299 5.67461226 14.233299 5.67461226 15.8206922 35.779524 15.8206922 38.0240979 15.8206922 36.4367047 14.233299 24.6264995 2.42468111"></polygon>
+                        <polygon id="Fill-3" transform="translate(9.009239, 21.962354) rotate(-315.000000) translate(-9.009239, -21.962354) " points="22.9394075 15.2635549 -7.16550419 15.2635549 -7.16550419 16.8525355 21.3520143 16.8525355 10.664096 27.5388664 11.7879704 28.6611533 23.5965883 16.8525355 25.1839815 15.2635549"></polygon>
+                        <polygon id="Fill-4" transform="translate(16.271195, 16.383858) rotate(-315.000000) translate(-16.271195, -16.383858) " points="30.5982125 15.590161 -1.09409237 15.590161 -1.09409237 17.1775542 30.5982125 17.1775542 32.8427865 17.1775542 33.6364831 16.3838576 32.8427865 15.590161"></polygon>
+                        <polygon id="Fill-5" transform="translate(24.955753, 25.068865) rotate(-315.000000) translate(-24.955753, -25.068865) " points="32.1474382 27.4499544 33.406241 26.1911516 34.528528 25.0688647 33.406241 23.9465777 32.1474382 22.6877749 30.560045 21.1003817 16.5052658 7.04560248 15.3829788 8.16947685 28.3154711 21.1003817 29.9028643 22.6877749 31.4902574 24.2751681 32.283954 25.0688647 31.4902574 25.8625613 29.9028643 27.4499544 28.3154711 29.0373476 15.3829788 41.9682525 16.5052658 43.0921269 30.560045 29.0373476"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
